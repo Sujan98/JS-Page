@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+  <link rel="stylesheet" href="assets/css/style.css">  
+</head>
+<body>    
+    <select>
+        <option>ss</option>
+        <option>aa</option>
+    </select>
+    <div class="main clearfix">
+        <div id="input" class="input-fields">
+            <input type="number" class="input-field" name="fields" placeholder="Input Fields" value="">
+            <div class="radio">
+                <span>Check box:</span>
+                <input type="radio" class="radio-o" name="radio" value="yes"><span class="radio-span">Yes</span>
+                <input type="radio" class="radio-o" name="radio" value="yes"><span class="radio-span">No</span>
+            </div>
+            <button onclick="fields()" class="submit">Submit</button>
+        </div>
+        <div class="output output-1 clearfix">            
+        </div>        
+        <button onclick="field()" class="submit submit-2 field-submit">Submit</button>        
+        <div class="output output-2 clearfix"> 
+            <div class="select-div clearfix">
+                <select class="select">                                
+                                                                                
+                </select>
+                <div class="opt-div">                             
+                    <input type="text" class="def-opt" name="text" value="" disabled>
+                    <span class="f-right fa fa-angle-down"></span>
+                    <div class="drop-div def"></div>
+                </div>
+            </div>
+        </div>             
+    </div>           
+    <!-- <div style="visibility: hidden;" class="drop-div"></div>  -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/main.js"></script>    
+</body>
+</html>
