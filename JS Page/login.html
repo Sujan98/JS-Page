@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+        <div class="header clearfix">
+                <h1 class="header-items">JavaScript</h1>
+                <div class="nav-menu header-items">
+                    <ul class="list-items clearfix">
+                        <li><a href="index.html" title="Home">Home</a></li>
+                        <li class="menu"><a href="#" id="menu" onclick="dropMenu()" title="Menu">Menu &nbsp; &#8681;</a></li>
+                        <li><a href="login.html" title="Login">Login</a></li>
+                    </ul>
+                </div>
+                <ul class="menu-list list-items">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>News</a></li>
+                        <li><a>Contact</a></li>
+                </ul>
+            </div>
+    <div class="main">        
+        <h1>Login</h1>
+        <form name="form" id="form">
+            <input type="text" class="f-name name input" placeholder="First Name">
+            <input type="text" class="l-name name input" placeholder="Last Name">
+            <input type="password" class="pass input " placeholder="Password">
+            <input type="password" class="re-pass input " placeholder="RE-Password">
+            <input type="email" class="email input" placeholder="Email">
+            <input type="text" class="input captcha" disabled>
+            <p>Enter the word above:</p>
+            <input type="text" class="input word">
+            <div class="img"><img onclick="makeid(6)" src="assets/images/refresh.png"></div>
+            <button type="button" class="input submit" onclick="return(validate())">Sign In</button>
+        </form>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

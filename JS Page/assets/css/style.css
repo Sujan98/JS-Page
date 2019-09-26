@@ -1,0 +1,223 @@
+body {
+    color: white;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.4s ease;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .header {
+      position: relative;
+      transition: all 0.4s ease;
+      background-color: rgba(0, 0, 255, 0.678);
+  }
+  .header-items {
+      float: left;
+      width: 70%;
+      margin: 0px;
+      padding: 23px 0px;
+      box-sizing: border-box;
+  }
+  .nav-menu {
+      padding: 0px;
+      width: 30%!important;
+  }
+  .header h1 {
+      text-align: left;
+      font-weight: bold;
+      padding-left: 50px;
+      color: white;
+  }  
+  .list-items {
+    text-align: right;
+    margin: 0px;    
+    padding: 0px;
+  }
+  .list-items li {
+      list-style-type: none;
+      font-size: 22px;
+      float: left;
+  }
+  .list-items a {
+    padding: 29.7px;
+    font-weight: bold;
+    color: white!important;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    transition: all 0.4s ease;
+}
+  .menu-list {
+     position: absolute;
+     display: block;
+     right: 0;
+     overflow: hidden;
+     height: 0px;
+     top: 100%;
+     background-color: rgba(0, 0, 0, 0.555);
+     width: 30%;
+     padding: 0px;
+     transition: all 0.4s ease;
+  }
+  .menu-list li {
+      float: none;
+      transition: all 0.4s ease;
+  }
+  .menu-list a {
+      text-align: center;
+      padding-left: 0px!important;
+      padding-right: 0px!important;
+      color: red!important;
+      transition: color 0.4s ease;
+  }
+  .menu-dropdown {
+    height: 446.88px!important;
+  }
+  .menu-dropdown li:hover {
+      background-color: rgba(255, 255, 255, 0.596);
+      border: 1px solid rgba(0, 0, 0, 0.555);
+  }
+  .menu-dropdown a {
+      color: white!important;
+  }
+  .nav-menu a:hover {
+    background-color: rgba(0, 0, 0, 0.555)!important;
+}
+  .side-bar {
+      width: 0px;
+      position: relative;
+      background-color: rgba(0, 0, 0, 0.404);
+      margin: 0px;
+      height: calc(100vh - 90.38px);
+      float: left;
+      transition: all 0.4s ease;
+  }
+  .side-bar h2 {
+      display: none;
+      background-color: black;
+      text-align: center;
+      margin: 0px;
+      padding: 0px;
+  }
+.side-button {
+    padding: 20px;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    top: 150px;
+    transform: translateX(100%);
+    cursor: pointer;
+}
+.color-list {
+    padding: 0px;
+}
+.color-list li{
+    float: left;
+    overflow: hidden;
+    width: 50%;
+}
+.color-list a {
+    margin: 25px;
+    border: 1px solid black;
+}
+.color {
+    display: none!important;
+}
+.menu-right {
+    width: 20%;
+}
+.menu-right h2 {
+    display: block!important;
+    padding: 20px 0px;
+}
+.menu-right a {
+    display: block!important;
+}
+.main {
+    margin: auto;
+    background-color: rgba(16, 141, 243, 0.527);
+    color: white;
+    width: 30%;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 55%;
+    transform: translateY(-50%);
+}
+.main form {
+    padding: 20px;
+}
+.input {
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.main h1 {
+    width: 100%;
+    margin: 0px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+.name {
+    width: 48%;
+    margin-top: 0px;
+}
+.l-name {
+    margin-left: 10.2px;
+}
+.main p {
+    margin-bottom: 5px;
+}
+.captcha {
+    background-color: white;
+    border-radius: 0px;
+    margin: 30px 0px 0px 0px;
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: rgb(29, 9, 9);
+    text-align: center;
+}
+.word{
+    margin-top: 0px;
+    width: 87%;
+}
+.img {
+    width: 10%;
+    display: inline-block;
+    vertical-align: bottom;
+    cursor: pointer;
+    padding-left: 5px;
+}
+.img img {
+    width: 100%;
+    vertical-align: middle;
+}
+.submit {    
+    font-size: 22px;
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+    background-color: rgba(0, 0, 255, 0.712);
+    cursor: pointer;
+    outline: none;
+}
+.submit:hover {
+    box-shadow: 2px 2px 15px black;
+}
